@@ -23,8 +23,6 @@ BOARD_PROVIDES_LIBRIL := true
 BOARD_MODEM_TYPE := xmm6262
 BOARD_RIL_CLASS := ../../../device/samsung/lt013g/ril/telephony/java
 
-TARGET_SPECIFIC_HEADER_PATH := device/samsung/lt013g/include
-
 # Bluetooth
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/samsung/lt013g/bluetooth
 
